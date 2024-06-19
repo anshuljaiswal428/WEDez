@@ -28,6 +28,6 @@
       ]
     }
   },
-  "include": ["src"],
+  "include": ["src", "src/components/shared/bootstrap.bundle.min.js"],
   "references": [{ "path": "./tsconfig.node.json" }]
 }

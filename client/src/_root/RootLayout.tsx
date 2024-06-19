@@ -1,6 +1,12 @@
+import Navbar from "@/components/shared/NavBar/NavBar"
+import { Outlet } from "react-router-dom"
+
 const RootLayout = () => {
   return (
-    <div>Root Layout</div>
+    <div className="flex flex-col">
+      <Navbar/>
+      <Outlet/>
+    </div>
   )
 }
 
